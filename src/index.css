@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#content {
+    margin: 0 auto;
+}
+
+#newGame {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#currentCount {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#color-flood-canvas {
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto 75vmin auto;
+    grid-template-rows: 10vmin 5vmin 75vmin 10vmin;
+    grid-template-areas: ". title . " ". informationContainer ." ". game ." ". settings .";
+    width: 100vmin;
+    height: 100vmin;
+    margin: 0 auto;
+}
+
+.informationContainer {
+    display: grid;
+    grid-area: informationContainer;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "informationLeft informationRight";
+}
+
+.title {
+    grid-area: title;
+    text-align: center;
+    font-size: 10vmin;
+}
+
+.informationLeft {
+    grid-area: informationLeft;
+    position: relative;
+}
+
+.informationRight {
+    grid-area: informationRight;
+    position: relative;
+}
+
+.game {
+    grid-area: game;
+    min-width: 0;
+    min-height: 0;
+}
+
+.settings {
+    grid-area: settings;
+    text-align: center;
+}
