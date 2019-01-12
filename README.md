@@ -15,5 +15,5 @@ A react redux implementation of color flood
 1. Navigate to `localhost:3000`
 
 ## Updating github pages
-1. Modify `homepage` in `package.json`
-1. `npm deploy`
+1. Modify `homepage` in `package.json` to your repo's homepage
+1. `npm run deploy`
