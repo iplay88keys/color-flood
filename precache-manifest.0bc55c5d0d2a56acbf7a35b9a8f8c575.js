@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/color-flood/static/js/runtime~main.541a3829.js"
   },
   {
-    "revision": "d6b25bf445058cde7afad0b2607c4306",
+    "revision": "1d3b194a8a73380ad879d4ac556d1e06",
     "url": "/color-flood/index.html"
   }
 ];
