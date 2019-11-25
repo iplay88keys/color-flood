@@ -1,6 +1,10 @@
-# color-flood
+# Color Flood
 
-A react redux implementation of color flood
+A react redux implementation of color flood.
+
+React/Redux is not the ideal framework for web games.
+This project was for practicing building a React/Redux app from "scratch" ([create-react-app](https://github.com/facebook/create-react-app))
+and the game seemed to be small enough in scope for that use case.
 
 <p align="center">
   <a href="http://iplay88keys.github.io/color-flood">
